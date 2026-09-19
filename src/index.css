@@ -1,0 +1,59 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #2563EB;
+  --color-primary-hover: #1D4ED8;
+  --color-secondary: #3B82F6;
+  --color-secondary-hover: #2563EB;
+  --color-accent: #60A5FA;
+  --color-medical-navy: #030712;
+  --color-medical-blue: #2563EB;
+  --color-medical-cyan: #38BDF8;
+  --color-medical-teal: #0EA5E9;
+  --color-black-bg: #030712;
+  --color-black-card: #080D1A;
+  --color-black-elevated: #0F172A;
+  --color-blue-glow: #1D4ED8;
+}
+
+:root {
+  --color-bg-app: #030712;
+  --color-sidebar-app: #050814;
+  --color-heading-app: #FFFFFF;
+  --color-primary-btn: #2563EB;
+  --color-btn-hover: #1D4ED8;
+  --color-normal-text: #94A3B8;
+  --color-card-app: #080D1A;
+  --color-border-app: #1E293B;
+  color-scheme: dark;
+}
+
+body {
+  background-color: #030712;
+  color: #CBD5E1;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #FFFFFF;
+  letter-spacing: -0.015em;
+}
+
+/* Custom sleek blue & black scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #030712;
+}
+::-webkit-scrollbar-thumb {
+  background: #1E3A8A;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #2563EB;
+}
+

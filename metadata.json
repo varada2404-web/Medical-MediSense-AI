@@ -1,0 +1,6 @@
+{
+  "name": "MediSense AI",
+  "description": "MediSense AI - Responsible AI Medical Assistant. Healthcare • Vision • Safety.",
+  "requestFramePermissions": ["microphone", "notifications"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
